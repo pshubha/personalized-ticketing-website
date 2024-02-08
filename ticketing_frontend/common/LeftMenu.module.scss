@@ -1,0 +1,35 @@
+.left-menu {
+  flex: 0 0 200px;
+    height: 100%;
+    width: 200px;
+    padding: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    position: fixed;
+  }
+  
+  .left-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  
+  .left-menu li {
+    cursor: pointer;
+    padding: 20px;
+    margin-bottom: 5px;
+    display: list-item;
+    border-radius:12px;
+    font-size: 18px;
+  }
+
+  .selected{
+    background: linear-gradient(141.55deg, #6FD943 3.46%, #6FD943 99.86%), #6FD943;
+    color: #fff;
+  }
+
+  .left-menu li:hover {
+    background: linear-gradient(141.55deg, #6FD943 3.46%, #6FD943 99.86%), #6FD943;
+    color: #fff;
+  }
