@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs", // or "es2022", "esnext", "system", "node16", or "nodenext"
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./dist"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  

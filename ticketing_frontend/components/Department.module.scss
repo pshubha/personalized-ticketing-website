@@ -1,0 +1,112 @@
+.task-link{
+  display: inline-flex;
+  gap:12px;
+}
+
+.link-white{
+  color:#333333;
+  cursor: pointer;
+}
+
+.link-green{
+  color:#6FD943;
+  cursor: pointer;
+}
+
+.task-container{
+  transition: background-color 0.3s ease;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.task-header{
+  display: flex;
+  justify-content:space-between;
+}
+
+.ticket-button{
+  padding: 12px;
+  background: linear-gradient(141.55deg, #6FD943 3.46%, #6FD943 99.86%), #6FD943;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ticket-input{
+  line-height:1.5;
+  color: #293240;
+  padding: 0.575rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius:6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ticket-row{
+  display: grid;
+  flex: 0 0 auto;
+  width: 47%;
+  padding: 10px;
+  gap:8px;
+}
+
+.taskTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  overflow-x:auto;
+}
+
+.taskTable th, .taskTable td {
+  // border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  // white-space: nowrap;
+  // text-overflow: ellipsis;
+  // max-width: 200px; /* Set a maximum width for each column */
+  // overflow: hidden;
+}
+
+.taskTable th {
+  border-bottom: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+
+.taskTable tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.cancel-button{
+  cursor: pointer;
+  border:none;
+  padding: 10px;
+}
+
+.create-button{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.action-btn{
+  display: flex;
+  gap: 2px;
+}
+
+.edit-btn{
+  border:none;
+  border-radius: 12px;
+  background-color: #3ec9d6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-btn{
+  border:none;
+  border-radius: 12px;
+  background-color: #ff3a6e;
+  color: #fff;
+  cursor: pointer;
+}
